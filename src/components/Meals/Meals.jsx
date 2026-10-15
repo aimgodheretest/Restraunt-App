@@ -1,9 +1,13 @@
-import MealSummary from './MealSummary'
+import AvailableMeals from "./AvailableMeals";
+import MealSummary from "./MealSummary";
 
 function Meals() {
   return (
-    <MealSummary/>
-  )
+    <>
+      <MealSummary />
+      <AvailableMeals />
+    </>
+  );
 }
 
-export default Meals
+export default Meals;
