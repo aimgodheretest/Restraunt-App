@@ -6,8 +6,8 @@ function Header() {
     <>
       <header className={classes.header}>
         <h1>ReactMeals</h1>
+        <HeaderCartButton />
       </header>
-      <HeaderCartButton />
       <div className={classes["main-image"]}>
         <img src={mealsImg} />
       </div>
