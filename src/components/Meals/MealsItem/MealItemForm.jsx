@@ -9,6 +9,7 @@ function MealItemForm({ meal }) {
 
   function submitHandler(event) {
     event.preventDefault();
+
     const amount = Number(amountInputRef.current.value);
     if (!Number.isInteger(amount) || amount < 1 || amount > 5) return;
 
